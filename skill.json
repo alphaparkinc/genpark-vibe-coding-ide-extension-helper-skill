@@ -1,0 +1,32 @@
+{
+  "name": "genpark-vibe-coding-ide-extension-helper-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vibe coding IDE extension helper providing real-time code completion & context-aware refactoring.",
+  "author": "genpark",
+  "category": "developer",
+  "tags": [
+    "vibe-coding",
+    "ide-helper",
+    "code-completion",
+    "context-refactor",
+    "ph-august12"
+  ],
+  "inputs": {
+    "active_file_content": {
+      "type": "string"
+    },
+    "cursor_line": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "completion_suggestion": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
